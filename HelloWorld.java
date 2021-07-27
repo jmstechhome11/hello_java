@@ -7,6 +7,10 @@ public class HelloWorld {
     System.out.println("bye friend");
     System.out.println("bye friend");
     System.out.println("bye friend");
+    System.out.println("bye friend");
+    System.out.println("bye friend");
+    System.out.println("bye friend");
+    System.out.println("bye friend");
     
   }
 }
