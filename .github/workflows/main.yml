@@ -25,14 +25,8 @@ jobs:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v2
 
-      - name: java version
-        run: java -version
-      - name: maven version
-        run: mvn --version
-      - name: python version
-        run: python --version
-      - name: docker version
-        run: docker -v
-      - name: terraform version
-        run: terraform --version
+      - name: compile javacode
+        run: javac HelloWorld.java
+      - name: run javacode
+        run: java HelloWorld
 
